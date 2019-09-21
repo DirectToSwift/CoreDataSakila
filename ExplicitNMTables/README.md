@@ -1,21 +1,19 @@
-# CoreData Sakila
+# CoreData Sakila w/ N:M Tables
 
 A Sakila database model for CoreData, also known as the DVD Rentals database.
 
-Read about it over at MySQL:
-[Sakila Sample Database](https://dev.mysql.com/doc/sakila/en/).
+This variant preserves the N:M tables in Sakila:
+`film_actor` and `film_category`.
+In other words, you need to take two hops. Which isn't really necessary in
+CoreData.
+
+The only "extra" column the N:M tables have is the `last_update` (every table
+in Sakila has that).
 
 ## Adjustments for CoreData
 
 The only column rename necessary is `film.description`, which is now called
 `film.summary`.
-
-## License
-
-The original Sakila database is licensed under the New BSD license,
-checkout
-[Sakila License](https://dev.mysql.com/doc/sakila/en/sakila-license.html)
-for the fine print.
 
 ## ER Diagram
 

@@ -30,7 +30,8 @@
         <relationship name="country" maxCount="1" deletionRule="Nullify" destinationEntity="Country" inverseName="cities" inverseEntity="Country"/>
     </entity>
     <entity name="Country" representedClassName="Country" syncable="YES" codeGenerationType="class">
-        <attribute name="name" attributeType="String" maxValueString="50"/>
+        <attribute name="country" attributeType="String" maxValueString="50"/>
+        <attribute name="lastUpdate" attributeType="Date" usesScalarValueType="NO"/>
         <relationship name="cities" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="City" inverseName="country" inverseEntity="City"/>
     </entity>
     <entity name="Customer" representedClassName="Customer" syncable="YES" codeGenerationType="class">
@@ -140,20 +141,20 @@
         <relationship name="staff" toMany="YES" deletionRule="Nullify" destinationEntity="Staff" inverseName="store" inverseEntity="Staff"/>
     </entity>
     <elements>
+        <element name="Actor" positionX="18" positionY="63" width="128" height="103"/>
+        <element name="Address" positionX="36" positionY="81" width="128" height="193"/>
+        <element name="Category" positionX="18" positionY="63" width="128" height="88"/>
+        <element name="City" positionX="45" positionY="90" width="128" height="103"/>
+        <element name="Country" positionX="-9" positionY="36" width="128" height="88"/>
+        <element name="Customer" positionX="0" positionY="45" width="128" height="193"/>
+        <element name="Film" positionX="36" positionY="81" width="128" height="268"/>
+        <element name="FilmActor" positionX="9" positionY="54" width="128" height="88"/>
+        <element name="FilmCategory" positionX="27" positionY="72" width="128" height="88"/>
+        <element name="Inventory" positionX="0" positionY="45" width="128" height="103"/>
         <element name="Language" positionX="-63" positionY="-18" width="128" height="103"/>
-        <element name="Staff" positionX="-54" positionY="-9" width="128" height="238"/>
         <element name="Payment" positionX="-36" positionY="9" width="128" height="133"/>
         <element name="Rental" positionX="-18" positionY="27" width="128" height="148"/>
-        <element name="Inventory" positionX="0" positionY="45" width="128" height="103"/>
-        <element name="Actor" positionX="18" positionY="63" width="128" height="103"/>
-        <element name="Film" positionX="36" positionY="81" width="128" height="268"/>
+        <element name="Staff" positionX="-54" positionY="-9" width="128" height="238"/>
         <element name="Store" positionX="-9" positionY="36" width="128" height="133"/>
-        <element name="Customer" positionX="0" positionY="45" width="128" height="193"/>
-        <element name="FilmActor" positionX="9" positionY="54" width="128" height="88"/>
-        <element name="Category" positionX="18" positionY="63" width="128" height="88"/>
-        <element name="FilmCategory" positionX="27" positionY="72" width="128" height="88"/>
-        <element name="Address" positionX="36" positionY="81" width="128" height="193"/>
-        <element name="City" positionX="45" positionY="90" width="128" height="103"/>
-        <element name="Country" positionX="-9" positionY="36" width="128" height="73"/>
     </elements>
 </model>

@@ -7,8 +7,11 @@ Read about it over at MySQL:
 
 ## Adjustments for CoreData
 
-The only column rename necessary is `film.description`, which is now called
-`film.summary`.
+- `film.description` must be renamed because "description". 
+   Now called `film.summary`.
+- `specialFeatures` is an array, flattened to String using ","
+- `create_date` is a SQL DATE (1973-01-31), not a timestamp/Date. Keeping it
+  as one ...
 
 ## License
 

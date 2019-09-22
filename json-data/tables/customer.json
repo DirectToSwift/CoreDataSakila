@@ -596,4 +596,4 @@
  {"customer_id":597,"store_id":1,"first_name":"Freddie","last_name":"Duggan","email":"freddie.duggan@sakilacustomer.org","address_id":603,"activebool":true,"create_date":"2006-02-14","last_update":"2013-05-26T14:49:45.738","active":1}, 
  {"customer_id":598,"store_id":1,"first_name":"Wade","last_name":"Delvalle","email":"wade.delvalle@sakilacustomer.org","address_id":604,"activebool":true,"create_date":"2006-02-14","last_update":"2013-05-26T14:49:45.738","active":1}, 
  {"customer_id":599,"store_id":2,"first_name":"Austin","last_name":"Cintron","email":"austin.cintron@sakilacustomer.org","address_id":605,"activebool":true,"create_date":"2006-02-14","last_update":"2013-05-26T14:49:45.738","active":1}, 
- {"customer_id":1,"store_id":222,"first_name":"Mary","last_name":"Smith","email":"mary.smith@sakilacustomer.org","address_id":4,"activebool":true,"create_date":"2006-02-14","last_update":"2019-09-20T12:52:23.946722","active":1}]
+ {"customer_id":1,"store_id":2,"first_name":"Mary","last_name":"Smith","email":"mary.smith@sakilacustomer.org","address_id":4,"activebool":true,"create_date":"2006-02-14","last_update":"2019-09-20T12:52:23.946722","active":1}]
